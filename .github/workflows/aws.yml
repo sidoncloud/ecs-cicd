@@ -9,7 +9,7 @@ env:
   ECS_SERVICE: data-validation
   ECS_CLUSTER: ecommerce-etl
   ECS_TASK_DEFINITION: .github/workflows/task-definition.json
-  CONTAINER_NAME: container-data-validation
+  CONTAINER_NAME: container-validate-data
 permissions:
   id-token: write
   contents: read
